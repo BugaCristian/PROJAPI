@@ -1,0 +1,50 @@
+
+.cont{
+    background-color: rgb(79, 95, 128);
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    text-align: center;
+    height: 50wh;
+    width: 700px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+#results p{
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+}
+.btn{
+    background-color: rgb(38, 3, 83);
+    padding: 10px;
+    display: block;
+    border: 0;
+    border-radius: 5px;
+    color:#fff;
+    outline: 0;
+    box-shadow: var(--main-shadow);
+    cursor: pointer;
+    transition: all .2s ease-in;
+    width: 100px;
+}
+.btn:hover{
+    background-color: rgb(16, 70, 16);
+    color: rgb(243, 243, 10);
+}
+#results{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
